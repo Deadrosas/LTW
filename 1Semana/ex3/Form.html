@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <title>Form</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<form action="Form.html" method="get">
+    <p>
+        <label>Nome:
+            <input type="text" name="Nome">
+        </label>
+    </p>
+    <p>
+        <label>Password:
+        <input type="password" name="password">
+        </label>
+    </p>
+    <p>
+        <label>Idade:
+        <input type="radio" name="age" value="<18" checked="checked"><18
+        <input type="radio" name="age" value="19-35">19-35
+        <input type="radio" name="age" value="36-48">36-48
+        <input type="radio" name="age" value=">49">>49
+        </label>
+    </p>
+
+    <p>
+        <label>
+        Profissão:
+        <input type="text" name="Profissão">
+        </label>
+    </p>
+
+    <p>
+        <label>
+        País:
+        <select name="País">
+            <option value="Portugal" selected>Portugal</option>
+            <option value="França">França</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Inglaterra">Inglaterra</option>
+        </select>
+        </label>
+    </p>
+
+    <p>
+        <label>Interesses:
+        <input type="checkbox" name="int1">Correr
+            <input type="checkbox" name="int2">Passear
+            <input type="checkbox" name="int3">Ver Filmes
+            <input type="checkbox" name="int4">Estar com os amigos
+            <input type="checkbox" name="int5">Trabalhar
+            <input type="checkbox" name="int6">Praticar Desporto
+        </label>
+    </p>
+
+    <p>
+        Como descobriu a página?
+    </p>
+    <p>
+        <textarea name="description" rows="4" cols="50">Por favor indique como descobriu a página.
+        </textarea>
+    </p>
+
+    <p>
+        <input type="submit" value="Submeter Respostas">
+    </p>
+
+</form>
+</body>
+</html>
